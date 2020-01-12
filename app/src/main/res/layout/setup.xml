@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <Button
+        android:id="@+id/setupButton"
+        android:layout_width="163dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/custom_button"
+        android:onClick="goToOptions"
+        android:text="Begin"
+        android:textColor="#FFFFFF" />
+
+    <RadioButton
+        android:id="@+id/radioRun"
+        android:layout_width="114dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginLeft="243dp"
+        android:layout_marginTop="50dp"
+        android:onClick="startRun"
+        android:shadowColor="#00AD5454"
+        android:text="Start Rescue"
+        android:textColor="#00332222" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="249dp"
+        android:layout_height="227dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/textName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="72dp"
+        android:ems="10"
+        android:layout_marginTop="400dp"
+        android:inputType="textPersonName"
+        android:hint="Enter your name"
+        android:text="" />
+
+</RelativeLayout>
